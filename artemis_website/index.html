@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art3m1s</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Art3m1s's World</h1>
+    </header>
+    <main>
+        <section id="imageGallery">
+            <!-- Images will be loaded here -->
+        </section>
+        <section id="tweetsSection">
+            <!-- Tweets will be loaded here -->
+        </section>
+        <select id="dropdownMenu" onchange="changeOption()">
+            <option value="chatbot">Chat with Art3m1s</option>
+            <option value="audiobook">Listen to Art3m1s's Story</option>
+            <option value="comicbook">Read Art3m1s's Comicbook</option>
+        </select>
+        <section id="chatbotBox" style="display: none;">
+            <!-- Chatbot will be loaded here -->
+        </section>
+        <section id="audiobookPlayer" style="display: none;">
+            <!-- Audiobook player will be loaded here -->
+        </section>
+        <section id="comicbookViewer" style="display: none;">
+            <!-- Comicbook viewer will be loaded here -->
+        </section>
+    </main>
+    <footer>
+        <p>© 2022 Art3m1s</p>
+    </footer>
+    <script src="js/chatbot.js"></script>
+    <script src="js/audiobook.js"></script>
+    <script src="js/comicbook.js"></script>
+    <script src="js/twitter.js"></script>
+</body>
+</html>
